@@ -13,6 +13,7 @@ Groups unlabeled data into clusters based on similarity — no target variable n
 KMeans is most common: specify n_clusters, fit your data, done
 
 
+
 🎨 Seaborn
 
 Built on top of Matplotlib — produces prettier, statistical plots with less code
@@ -22,3 +23,15 @@ Best for: heatmaps, pairplots, boxplots, violin plots & countplots
 Natively works with pandas DataFrames — just pass df and column names
 
 Ideal for visualizing correlations, distributions, and categorical comparisons
+
+
+
+🎯 KMeans
+
+Unsupervised algorithm that groups data into K distinct clusters
+
+Works by iteratively assigning points to the nearest centroid and updating it
+
+Key parameter: n_clusters — choose optimal K using the Elbow Method
+
+Fast, simple & effective for customer segmentation, student grouping & pattern discovery
